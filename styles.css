@@ -431,8 +431,6 @@ p {
 
 /* All nav icons */
 .mobile-nav-icon {
-  width: 26px;
-  height: 26px;
   object-fit: contain;
   transition: opacity 0.2s;
 }
@@ -1350,6 +1348,7 @@ p {
   /* Show bottom nav */
   #mobile-bottom-nav {
     display: block;
+    background-color: #f7f7f7;
   }
 
   /* Push page content above bottom nav so nothing hides behind it */
